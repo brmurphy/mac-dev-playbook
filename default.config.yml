@@ -6,7 +6,7 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/brmurphy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
@@ -22,22 +22,14 @@ homebrew_installed_packages:
   - bash-completion
   - doxygen
   - gettext
-  - gifsicle
   - git
   - go
   - gpg
   - hub
   - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
   - nmap
   - node
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
   - readline
   - openssl
   - pv
@@ -53,17 +45,9 @@ homebrew_cask_apps:
   - chromedriver
   - docker
   - dropbox
-  - firefox
   - google-chrome
   - handbrake
   - licecap
-  - limechat
-  - macvim
-  - sequel-pro
-  - skitch
-  - slack
-  - sublime-text
-  - transmit
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
