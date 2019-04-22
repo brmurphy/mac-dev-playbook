@@ -47,7 +47,10 @@ homebrew_cask_apps:
   - dropbox
   - google-chrome
   - handbrake
+  - iterm2
   - licecap
+  - nordvpn
+  - spotify
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
