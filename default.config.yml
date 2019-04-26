@@ -6,15 +6,14 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/brmurphy/dotfiles.git
+dotfiles_repo: git@github.com:brmurphy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+  - .gitconfig
+  - .macos
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
