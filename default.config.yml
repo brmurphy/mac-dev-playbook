@@ -49,6 +49,7 @@ homebrew_cask_apps:
   - iterm2
   - licecap
   - nordvpn
+  - pycharm-ce
   - spotify
   - vagrant
 
